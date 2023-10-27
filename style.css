@@ -219,8 +219,11 @@ h3:after {
 }
 
 a:hover {
-  transition: 0.3s all ease-in-out;
   display: inline-block;
+}
+
+.image__popular:hover, a:hover {
+  transition: 0.3s all ease-in-out;
   transform: scale(1.1);
 }
 
