@@ -1,0 +1,284 @@
+body {
+  font-weight: 300;
+  background: rgb(63, 62, 62);
+  font-family: League Spartan, sans-serif;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin-inline: auto;
+  background: rgb(63, 62, 62);
+}
+
+.container {
+  max-width: 1440px;
+  margin-inline: auto;
+  background: #fff;
+  margin-inline: auto;
+}
+
+.container-model {
+  width: 100%;
+  min-height: 984px;
+  height: 100%;
+  margin-inline: auto;
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 0 135px;
+}
+
+.info {
+  max-width: 650px;
+  align-items: center;
+}
+
+.title {
+  color: #272727;
+  font-size: 250px;
+  font-weight: 300;
+  text-transform: capitalize;
+  position: relative;
+  display: inline-block;
+  /* margin-bottom: 43px; */
+  margin: 189px 0 43px 0;
+}
+
+span {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 186%;
+  text-transform: lowercase;
+  position: absolute;
+  top: -85px;
+  left: 0;
+}
+
+.desc {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 155%;
+}
+
+.primary-desc {
+  width: 575px;
+  text-align: left;
+  margin-bottom: 61px;
+}
+
+.image {
+  max-width: 100%;
+  background: #f8f8f8;
+}
+
+.primary-img {
+  max-width: 413px;
+  height: auto;
+}
+
+.primary-img img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.button {
+  height: 82px;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 211px;
+  display: inline-flex;
+}
+
+.button__buy {
+  width: 278px;
+  height: 100%;
+  background: #161515;
+  color: #fff;
+  padding: 26px 73px;
+  cursor: pointer;
+  position: relative;
+}
+
+.button__price {
+  width: 143px;
+  height: 100%;
+  color: #272727;
+  text-align: center;
+  line-height: 186%;
+  background: #fff;
+  box-shadow: 0px 0px 28px 0px rgba(214, 214, 214, 0.25);
+  padding: 18px 26px 34px 26px;
+  position: absolute;
+  left: 100%;
+  top: 0px;
+  cursor: auto;
+}
+
+.models {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_popular {
+  margin-top: 41px;
+  color: #000;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 112.5%;
+  text-transform: capitalize;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 84px;
+}
+
+.popular-span {
+  width: 171px;
+  font-weight: 300;
+  top: -41px;
+  align-items: center;
+  left: calc((100% - 171px) / 2);
+}
+
+.image__popular {
+  width: 496px;
+  height: 630px;
+  padding: 110px 60px;
+}
+
+.image__popular img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.popular-desc {
+  max-width: 532px;
+  max-height: 194px;
+  margin-top: 111px;
+  margin-bottom: 85px;
+  position: relative;
+}
+
+.span_popular {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  position: absolute;
+}
+
+/* 
+.one-spn {
+  width: 285px;
+  height: 27px;
+  top: -44px;
+  left: calc((100% - 285px) / 2);
+}
+
+.img-popular-two {
+  width: 500px;
+  height: 630px;
+  padding: 65px 0;
+  cursor: pointer;
+}
+
+.img-popular-two img {
+  width: 100%;
+  height: 500px;
+}
+
+.popular-two-desc {
+  max-width: 510px;
+  max-height: 196px;
+  margin-top: 113px;
+  margin-bottom: 59px;
+  position: relative;
+  cursor: pointer;
+}
+
+.two-spn {
+  width: 66px;
+  height: 29px;
+  top: -46px;
+  left: calc((100% - 66px) / 2);
+}
+
+h3 {
+  width: 972px;
+  height: 50px;
+  color: #161515;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 186%;
+  text-transform: capitalize;
+  margin-bottom: 58px;
+  position: relative;
+}
+
+h3:after {
+  content: "";
+  background: #707070;
+  height: 1px;
+  width: 178px;
+  display: block;
+  position: absolute;
+  left: calc((100% - 178px) / 2);
+}
+
+.about {
+  width: 515px;
+  height: 231px;
+  color: #161515;
+  font-size: 24px;
+  line-height: 170%;
+  margin-bottom: 142px;
+}
+
+#linkAbout {
+  color: #bb8b5d;
+  font-weight: 500;
+}
+
+a:hover {
+  transition: 0.3s all ease-in-out;
+  display: inline-block;
+  transform: scale(1.1);
+}
+
+.buy:hover {
+  transition: 0.5s all ease-in-out;
+  transform: translateY(-15px);
+}
+
+#linkAbout:hover {
+  transition: 0.5s all ease-in-out;
+  transform: translateY(-5px);
+}
+
+#animal {
+  -webkit-mask-image: linear-gradient(
+    -75deg,
+    rgba(0, 0, 0, 0.6) 30%,
+    #000 50%,
+    rgba(0, 0, 0, 0.6) 70%
+  );
+  -webkit-mask-size: 200%;
+  animation: wave 2s infinite;
+}
+
+@-webkit-keyframes wave {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  to {
+    -webkit-mask-position: -50%;
+  }
+} */
