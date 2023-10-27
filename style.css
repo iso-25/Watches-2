@@ -148,6 +148,7 @@ span {
   width: 496px;
   height: 630px;
   padding: 110px 60px;
+  margin-bottom: 111px;
 }
 
 .image__popular img {
@@ -156,12 +157,13 @@ span {
   object-fit: cover;
 }
 
-.popular-desc {
+.desc__popular {
   max-width: 532px;
   max-height: 194px;
   margin-top: 111px;
   margin-bottom: 85px;
   position: relative;
+  margin-bottom: 85px;
 }
 
 .span_popular {
@@ -169,46 +171,14 @@ span {
   text-align: center;
   font-size: 32px;
   font-weight: 400;
-  line-height: normal;
   text-transform: capitalize;
   position: absolute;
-}
-
-/* 
-.one-spn {
-  width: 285px;
-  height: 27px;
+  cursor: pointer;
+  width: 100px;
   top: -44px;
-  left: calc((100% - 285px) / 2);
+  left: calc((100% - 100px) / 2);
 }
 
-.img-popular-two {
-  width: 500px;
-  height: 630px;
-  padding: 65px 0;
-  cursor: pointer;
-}
-
-.img-popular-two img {
-  width: 100%;
-  height: 500px;
-}
-
-.popular-two-desc {
-  max-width: 510px;
-  max-height: 196px;
-  margin-top: 113px;
-  margin-bottom: 59px;
-  position: relative;
-  cursor: pointer;
-}
-
-.two-spn {
-  width: 66px;
-  height: 29px;
-  top: -46px;
-  left: calc((100% - 66px) / 2);
-}
 
 h3 {
   width: 972px;
@@ -245,6 +215,7 @@ h3:after {
 #linkAbout {
   color: #bb8b5d;
   font-weight: 500;
+  text-decoration:underline;
 }
 
 a:hover {
